@@ -1,4 +1,6 @@
-*{
+*,
+*::before,
+*::after{
 	padding:0;
 	margin:0;
 }
@@ -81,4 +83,27 @@ h1{
 	width:0;
 	color:#fff;
 	transition:all .2s;
+}
+
+
+/*Responsive Device Code*/
+@media(max-width:75em){
+	/*Tablet Landscape*/
+	html{
+		font-size:56.25%; /*1rem = 9px*/
+	}
+}
+
+@media(max-width:56.25em){
+	/*Tablet Portrait*/
+	html{
+		font-size:50%; /*1rem = 8px*/
+	}
+}
+
+@media(max-width:37.5em){
+	/*Phone*/
+	html{
+		font-size:45%;
+	}
 }
