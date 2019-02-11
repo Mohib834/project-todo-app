@@ -42,10 +42,9 @@ h1{
 	font-size:2.2rem;
 }
 
-.sticky{
+.add-option-toggle{
 	float:right;
 }
-
 
 .add{
 	width:100%;
@@ -54,6 +53,8 @@ h1{
     border:none;
     font-size:2rem;
     outline:none;
+	transition:all .2s;
+
 }
 
 .ulList li{
